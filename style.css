@@ -1,0 +1,78 @@
+/*colors and fonts */
+
+body {
+	font-family: Libre Baskerville;
+	background-color: rgb(253, 235, 247);
+
+}
+
+h1{
+	color: rgb(51, 47, 208);
+	font-size: 50px;
+	font-family: Libre Baskerville;
+}
+
+h2 {
+ color: rgb(146, 84, 200);
+ font-size: 30px;
+}
+
+a {
+	color: turquoise;
+	}
+
+a:hover {
+	color: rgb(146, 84, 200);
+}
+
+
+/* custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 400px){
+	..container {
+		width: 100px;
+	}
+}
+
+.card-design{
+	background-color: rgb(225, 242, 251);
+	padding: 40px;
+	box-shadow: 2px 5px 10px rgb(146, 84, 200) ;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-design li{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
